@@ -125,7 +125,7 @@ class Dividir(Operacion):
     def imprimir(self):
         print(self.numero / 3)
 
-# Uso del patrón Decorator
+
 numero = 5
 operacion = Operacion(numero)
 operacion.imprimir()
